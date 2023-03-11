@@ -32,3 +32,7 @@ class TestHomePage(BaseClass):
     @pytest.fixture(params = HomePageData.getTestData("Testcase2"))
     def getdata(self,request):
         return request.param
+
+    def test_formSubmission2(self, getdata):
+        print("creating one more method after creating a branch in GitDemo using cmd")
+        print("architect is now changing the framework things in other method in GetDemo 2nd time")

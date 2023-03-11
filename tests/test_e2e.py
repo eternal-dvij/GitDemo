@@ -48,3 +48,11 @@ class TestOne(BaseClass):
         print(var)
         print("Changing some code.... here.... in IST...... By Y")
         time.sleep(5)
+
+    def test_e2e2(self):
+        print("making changes after creating new branch through cmd")
+        print("architect is now changing the framework things in GetDemo")
+
+    def test_e2e3(self):
+        print("making 2nd changes after creating new branch through cmd")
+        print("architect is now changing the framework things in GetDemo 2nd time")
