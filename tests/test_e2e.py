@@ -45,4 +45,6 @@ class TestOne(BaseClass):
         assert "Success!" in self.driver.find_element(By.CLASS_NAME, "alert-success").text
         var = self.driver.find_element(By.ID, "country").get_attribute("value")
         log.info(var)
+        print(var)
+        print("Changing some code.... here.... in IST...... By Y")
         time.sleep(5)
